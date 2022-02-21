@@ -1,4 +1,4 @@
-# profile-card-component-SOLUTION# Frontend Mentor - Four card feature section SOLUTION
+# Profile card component SOLUTION
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
