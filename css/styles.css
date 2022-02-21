@@ -1,0 +1,106 @@
+:root{
+    --fuentePrincipal: 'Kumbh Sans', sans-serif;
+    --azulClaro: hsl(185, 75%, 39%);
+    --azulOscuro: hsl(229, 23%, 23%);
+    --azulGris: hsl(227, 10%, 46%);
+}
+
+html{
+    box-sizing: border-box;
+}
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+body{
+    background-color: var(--azulClaro);
+    font-family: var(--fuentePrincipal);
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 90%;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+/*Background*/
+.circle{
+    position: fixed;
+}
+.arriba{
+    top: -31%;
+    left: -55%;
+    transform: rotate(100deg);
+}
+.abajo{
+    bottom: -31%;
+    right: -55%;
+}
+@media screen and (min-width:768px){
+    .arriba{
+        top: -75%;
+        left: -25%;
+        transform: rotate(100deg);
+    }
+    .abajo{
+        bottom: -85%;
+        right: -22%;
+    }
+}
+/*Card*/
+.header{
+    height: 100vh;
+}
+.card{
+    position: relative;
+    margin: 0 auto;
+    bottom: -25%;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;  
+    width: 350px; 
+}
+.card__header{
+    background-image: url(../images/bg-pattern-card.svg);
+    padding: 4rem;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+.card__imagen{
+    border-radius: 50%;
+    position: absolute;
+    bottom: -37%;
+    left: 134px; ;
+    border: 5px solid white;
+}
+.card__name{
+    padding-top: 4rem;
+}
+.card__name span,
+.card__description span{
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: .5rem;
+    margin-bottom: .3rem;
+    color: black;
+}
+.card__name p,
+.card__description{
+    color: var(--azulGris);
+}
+.card__description span{
+    display: block;
+}
+.card__info{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid gainsboro;
+}
+.card__description{
+    font-size: .7rem;
+}
