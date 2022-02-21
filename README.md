@@ -1,0 +1,13 @@
+# profile-card-component-SOLUTION# Frontend Mentor - Four card feature section SOLUTION
+
+![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out my solution for this front-end coding challenge. You can find the challenge in the following link:
+
+[Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
+
+**To do this challenge, you need a basic understanding of HTML and CSS.**
+
+**Have fun building!** 🚀
